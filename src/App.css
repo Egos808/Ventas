@@ -1,0 +1,94 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Color de fondo claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Para centrar verticalmente */
+}
+
+h1 {
+  color: #333; /* Color del título */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #555; /* Color de subtítulo */
+}
+
+.container {
+  background-color: white; /* Fondo blanco para el formulario */
+  padding: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  width: 300px; /* Ancho fijo para el formulario */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Colocar los elementos en columna */
+}
+
+label {
+  margin-bottom: 5px; /* Espacio entre el label y el input */
+  color: #666; /* Color del texto del label */
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 15px; /* Espacio entre los inputs */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; /* Borde azul al enfocarse */
+  outline: none; /* Sin outline */
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para la lista de usuarios */
+.usuario-list {
+  margin-top: 20px; /* Espacio superior para la lista */
+}
+
+.usuario-item {
+  padding: 10px;
+  background-color: #f9f9f9; /* Fondo gris claro para cada usuario */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Espacio entre cada usuario */
+}
+
+.usuario-item h3 {
+  margin: 0; /* Sin margen en el título del usuario */
+}
+
+button.salir {
+  background-color: #ff4d4d; /* Color de fondo rojo para salir */
+  margin-top: 20px; /* Espacio superior para el botón */
+}
+
+button.salir:hover {
+  background-color: #ff1a1a; /* Color más oscuro al pasar el ratón */
+}
